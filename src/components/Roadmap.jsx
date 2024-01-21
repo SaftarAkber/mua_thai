@@ -2,7 +2,7 @@ import React from 'react'
 const ProfileCard = ({ name, position, imageSrc, linkedInUrl }) => {
     return (
 
-        <div class="px-6 py-6 text-center bg-gray-800 rounded-lg lg:mt-0 xl:px-10">
+        <div class="px-6 py-6 text-center bg-zinc-900 rounded-lg lg:mt-0 xl:px-10">
             <div class="space-y-4 xl:space-y-6">
                 <img class="mx-auto rounded-full h-36 w-36" src={imageSrc} alt="author avatar" />
                 <div class="space-y-2">
@@ -50,31 +50,31 @@ const exampleProfiles = [
     {
         name: 'SAFTAR AKBAROV',
         position: 'Fullstack Developer',
-        imageSrc: require('../images/web1.jpg'),
+        imageSrc: require('../images/web2.jpg'),
         linkedInUrl: 'https://www.linkedin.com/in/jane-smith/',
     },
     {
         name: 'JAMSHID NAKHCHIVANSKI',
         position: 'CTO',
-        imageSrc: require('../images/web1.jpg'),
+        imageSrc: require('../images/web3.jpg'),
         linkedInUrl: 'https://www.linkedin.com/in/mike-johnson/',
     },
     {
         name: 'TAGHI ZARBALIYEV',
         position: 'Head Of Partnerships',
-        imageSrc: require('../images/web1.jpg'),
+        imageSrc: require('../images/web4.jpg'),
         linkedInUrl: 'https://www.linkedin.com/in/alice-davis/',
     },
     {
         name: 'Baleli',
         position: 'Planet Researcher',
-        imageSrc: require('../images/web1.jpg'),
+        imageSrc: require('../images/baleli.jpeg'),
         linkedInUrl: 'https://www.linkedin.com/in/bob-brown/',
     },
     {
         name: 'UFO',
         position: 'Messi',
-        imageSrc: require('../images/web1.jpg'),
+        imageSrc: require('../images/messi.jpeg'),
         linkedInUrl: 'https://www.linkedin.com/in/charlie-green/',
     },
 ];

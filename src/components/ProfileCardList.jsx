@@ -47,13 +47,13 @@ const exampleProfiles = [
     name: 'Baleli',
     position: 'Planet Researcher',
     imageSrc: require('../images/web1.jpg'),
-    linkedInUrl: 'https://www.linkedin.com/in/bob-brown/',
+    linkedInUrl: '../images/baleli.jpeg',
   },
   {
     name: 'UFO',
     position: 'Messi',
     imageSrc: require('../images/web1.jpg'),
-    linkedInUrl: 'https://www.linkedin.com/in/charlie-green/',
+    linkedInUrl: '../images/messi.jpeg',
   },
 ];
 
