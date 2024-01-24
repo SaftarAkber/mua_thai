@@ -35,3 +35,11 @@
 .outfit{
   font-family: outfit;
 }
+
+@font-face {
+  font-family: muay-thaiger;
+  src: url(../src/Fonts/HanyiSentyTang.ttf);
+}
+.outfit{
+  font-family: muay-thaiger;
+}

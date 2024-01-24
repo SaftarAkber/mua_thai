@@ -9,7 +9,7 @@ export default function Aboutus() {
                 <img src={tiger} alt='tiger' className='inline' />
             </div>
             <div className='col-span-1 flex flex-col justify-center'>
-                <h1 className='font-bold my-2 text-5xl text-[#C84B31]'>RANDOM</h1>
+                <h1 className='font-bold my-2 text-5xl bg-clip-text bg-cover text-transparent bg-[url("/src/tigerrr.png")]'>RANDOM</h1>
                 <p className='my-2 text-white text-justify'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum atque tempore aut,
                     est dolor consectetur voluptatem mollitia iusto aspernatur accusamus consequatur saepe
