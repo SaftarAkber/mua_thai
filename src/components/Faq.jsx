@@ -43,8 +43,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="text-white bg-[#161616] pt-10 ">       
-      <h3 class=" text-7xl text-orange-600 text-center font-[outfit] font-bold">FAQ`s</h3>
+    <div className="text-white pt-10 bg-center p-24 w-full bg-cover w-full bg-cover h-[100%] bg-[url('/src/17.jpg')]">
       <ul className=" max-w-screen-sm list-none list-disc mx-auto pb-20 pt-5 font-mono space-y-2">
         {faqData.map((faq, index) => (
           <li key={index} className="hover:bg-[#075b0787] bg-[#00000063] font-bold font-sans border-2 p-4 mb-4">

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Timeline = () => {
     return (
-        <div className='bg-[#161616] py-10 '>
+        <div className='bg-[#161616] w-full py-10 bg-cover  bg-[url("/src/16.jpg")]'>
             <h3 class="text-7xl text-orange-600  font-[outfit] font-bold py-10 text-center">ROADMAP</h3>
             <ol>
                 <li class="md:flex justify-center">

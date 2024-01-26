@@ -43,3 +43,12 @@
 .outfit{
   font-family: muay-thaiger;
 }
+
+
+@font-face {
+  font-family: anton;
+  src: url(../src/Fonts/Anton-Regular.ttf);
+}
+.anton{
+  font-family: anton;
+}

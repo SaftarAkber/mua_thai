@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('/src/tigerrr.png')"
+        'banner-bg': "url('/src/MUAITHAIGER.png')",
+        'header-bg': "url('/src/muathaibg.jpg')",
       },
       animation:{
         swap:'swap 25s linear infinite',

@@ -4,9 +4,8 @@ import tiger from '../images/tiger.png';
 
 export default function Aboutus() {
     return (
-        <div className='bg-[#161616] py-10 mx-auto px-20 p-2 md:grid grid-cols-2'>
+        <div className='bg-[#161616] py-10 mx-auto w-full  px-20 md:grid grid-cols-2 bg-cover h-[114vh] bg-[url("/src/15.jpg")]'>
             <div className='col-span-1 md:w-[80%] text-center'>
-                <img src={tiger} alt='tiger' className='inline' />
             </div>
             <div className='col-span-1 flex flex-col justify-center'>
                 <h1 className='font-bold my-2 text-5xl bg-clip-text bg-cover text-transparent bg-[url("/src/tigerrr.png")]'>RANDOM</h1>
